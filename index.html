@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Mi curriculum</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/cv.css">
+    <script src="scripts/motor.js"></script>
+    <script src="https://kit.fontawesome.com/cfbbd3b798.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="titulo">Curriculum vitae</div>
+        <div class="menu-nav">
+            <nav>
+                <ul id="lista-nav">
+                    <li><a href="#sobre-mi" class="item-nav">Sobre mi</a></li>
+                    <li><a href="#habilidades" class="item-nav">Habilidades</a></li>
+                    <li><a href="#experiencia" class="item-nav">Experiencia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-principal">
+            <div class="container-personal">
+                <a name="sobre-mi"></a><div class="subtitulo"><u>Sobre mi</u></div>
+                <div class="container-personal-texto">
+                <p>Saitama (サイタマ, Saitama) es el protagonista principal de One Punch-Man y el héroe más poderoso de todos. Debido a su condición sobrehumana, Saitama se enfrenta a una crisis existencial, ya que ahora es demasiado fuerte, siendo capaz de derrotar a sus oponentes de un solo golpe, por lo que sus batallas las encuentra aburridas y sin emoción.</p><br><br>
+
+                <p>Se registró en la Asociación de Héroes, donde se le da el nombre de Calvo con Capa (ハゲマント, Hagemanto). Habiendo comenzado en lo más bajo de la Clase-C, actualmente se encuentra en Clase-A, ocupando el rango 39. Tiene la tarea de defender Ciudad-Z contra los kaijin.</p><br><br>
+                <p>Es un hombre calvo, de aspecto ordinario, con un físico delgado pero bien construido, y es de estatura y peso promedio. Inicialmente, Saitama tenía el pelo negro y puntiagudo, pero afirma haber perdido todo su cabello de manera repentina y prematura como resultado de la carga que su cuerpo de héroe había cobrado en su cuerpo. Saitama también tiene ojos marrones que se representan como puntos.</p><br><br>
+                <p>"No me importa ser famoso, solo me interesa salvar vidas"</p><br><br>
+                </div>
+                <div class="container-personal-foto"><img src="img/saitama.jpeg" id="foto"></div>
+            </div>
+            <div class="container-habilidades">
+                <a name="habilidades"></a><div class="subtitulo"><u>Habilidades</u></div>
+                <ul>
+                    <li class="habilidad">-Fuerza sobrehumana</li>
+                    <li class="habilidad">-Velocidad inmensa</li>
+                    <li class="habilidad">-Gran agilidad</li>
+                    <li class="habilidad">-Resistencia inmensa</li>
+                    <li class="habilidad">-Percepción sobrehumana</li>
+                </ul>
+            </div>
+            <div class="container-experiencia">
+                <a name="experiencia"></a>
+                <div class="subtitulo"><u>Experiencia</u></div>
+                <ul>
+                        <li class="experiencia-exhibida">Saitama vs. Kanirante: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Piggy Bancon (fuera de escena): Derrota</li>
+                        <li class="experiencia-exhibida">Saitama vs. Himawari (fuera de escena): Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Encarnación del Cordón del cable de Luz: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Hombre con Garras de Pulpo: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Larva Magiciada de 170 000-Años: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Ventilador Demoníaco: Victoria</li>
+                        <button class="boton-experiencia" id="exhibido" onclick="verMas()">Ver más...</button>
+                    <div id="escondido">
+                        <li class="experiencia-exhibida">Saitama vs. Pez de las Tinieblas: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Vaccine Man: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Marugori: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. BariCustom YO649Z Mk. II: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Underlord: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Chica Mosquito: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Mantis: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Beast King: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Ground Dragon: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Asura Kabuto: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Hammerhead: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Genos: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Sonic Velocidad del Sonido: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Kombu Infinito (fuera de escena): Victoria</li>
+                        <li class="experiencia-exhibida">Saitama, Genos y Metal Knight vs. Meteorito: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Tanktop Tiger y Tanktop Black Hole: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Rey del Mar Profundo: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Delorean (fuera de escena): Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Groribas: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Geryuganshoop: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Boros: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Plutón: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Cuervo Gigante: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Fubuki, Pestañas y Mono de Montaña: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Sonic Velocidad del Sonido (segundo round): Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Zakos: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Bakuzan: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Sour Face (fuera de escena): Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Choze: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Suiryu: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Bakuzan (segundo round): Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Gouketsu (fuera de escena): Victoria</li>
+                        <li class="experiencia-exhibida">Saitama y King vs. Ciempiés Anciano: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Overgrown Rover y Nyan: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Orochi: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Agua Natural Malvada: Victoria</li>
+                        <li class="experiencia-exhibida">Saitama vs. Garou: Victoria</li>
+                        <button class="boton-experiencia ver-menos" onclick="verMenos()">Ver menos...</button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-iconos">
+            <a href="https://es-la.facebook.com/TheCapedBaldy/videos/"><i class="fa-brands fa-square-facebook fa-2xl" style="color: lightblue; text-decoration: none;padding: 0 10px;"></i></a>
+            <a href="https://www.instagram.com/onepunchman_official/?hl=es"><i class="fa-brands fa-instagram fa-2xl" style="color: lightblue; text-decoration: none;padding: 0 10px;"></i></a>
+            <a href="https://ar.linkedin.com/in/saitama-sensei-652451201"><i class="fa-brands fa-linkedin fa-2xl" style="color: lightblue; text-decoration: none;padding: 0 10px;"></i></a>
+        </div>
+    </footer>  
+</body>
+</html>

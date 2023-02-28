@@ -1,0 +1,110 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(rgb(167, 158, 158),rgb(167, 158, 158),rgb(167, 158, 158),rgb(167, 158, 158),lightblue);
+}
+.titulo{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px 20px 30px 20px;
+}
+.menu-nav{
+    display: inline;
+    width: 100%;
+}
+#lista-nav{
+    list-style-type: none;
+}
+.item-nav{
+    text-decoration: none;
+    color: black;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    width: 13%;
+    padding: 0 10%;
+}
+main{
+    background-color: lightblue;
+    width: 100%;
+    height: 1200px;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    padding: 2% 0;
+}
+.container-personal{
+    height: 25%;
+    margin-bottom: 10px;
+    display: block;
+}
+.container-personal-texto{
+    width: 55%;
+    margin: 0 2.5%;
+    height: 100%;
+    font-size: 20px;
+    display: inline-block;
+    text-align: justify;
+}
+.container-personal-foto{
+    width: 35%;
+    height: 100%;
+    margin: 0 2.5%;
+    float: right;
+}
+#foto{
+    width:100%;
+    height:100%;
+    border-radius: 50px;
+}
+.container-habilidades{
+    height: 25%;
+    display: block;
+}
+.habilidad{
+    font-size: 20px;
+    margin: 0 2.5%;
+    padding: 10px 0px;
+}
+.container-experiencia{
+    height: 30%;
+    display: block;
+}
+.experiencia-exhibida{
+    font-size: 20px;
+    margin: 0 2.5%;
+    padding: 3px 0px;
+}
+.boton-experiencia{
+    background-color: blue;
+    margin: 10px 0 20px 2.5%;
+    font-size: 20px;
+    color: white;   
+    width: 25%;  
+    height: 30px;
+}
+.boton-experiencia:hover{
+    background-color: rgb(5, 5, 170);
+}
+.boton-experiencia:active{
+    background-color: white;
+    color: blue;
+}
+#escondido{
+    display: none;
+}
+footer{
+    background: linear-gradient(lightblue,black,black,black);
+    height: 150px;
+    width: 100%;
+}
+.container-iconos{
+    text-align: center;
+    padding-top: 85px;
+}
